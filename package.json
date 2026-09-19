@@ -1,0 +1,21 @@
+{
+  "name": "kerberos-protocol",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Experimental KERBEROS protocol monorepo: execution assurance concepts plus requested portfolio-first MVP contracts.",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "forge test",
+    "dev:web": "pnpm --filter @kerberos/web dev",
+    "dev:indexer": "pnpm --filter @kerberos/indexer dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
