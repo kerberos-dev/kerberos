@@ -29,7 +29,7 @@ export const networks: KerberosNetwork[] = [
     nativeCurrency: "ETH",
     contracts: {},
     notes:
-      "Chain ID and native asset are referenced by the attached whitepaper. RPC URLs and deployed addresses are intentionally omitted."
+      "Chain ID and native asset are referenced by the current whitepaper. RPC URLs and deployed addresses are intentionally omitted."
   }
 ];
 

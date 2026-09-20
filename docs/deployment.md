@@ -31,4 +31,4 @@ Before any public deployment:
 
 ## Robinhood Chain
 
-The attached whitepaper references Robinhood Chain chain ID `4663` and ETH as gas. No RPC endpoint or deployed address is provided here.
+The current whitepaper references Robinhood Chain chain ID `4663` and ETH as gas. No RPC endpoint or deployed address is provided here.
