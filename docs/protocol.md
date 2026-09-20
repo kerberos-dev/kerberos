@@ -16,6 +16,6 @@ The portfolio MVP is intentionally conservative:
 
 ## $KERBEROS Token
 
-The user requested `$KERBEROS` be treated as a utility/ecosystem token rather than equity. The attached PDF does not specify token mechanics. This repository therefore includes no token contract, sale mechanics, allocation schedule, or investment language.
+`$KERBEROS` is reserved for a potential utility/ecosystem token design, not equity. The current whitepaper does not specify token mechanics, so this repository includes no token contract, sale mechanics, allocation schedule, or investment language.
 
 Any future `$KERBEROS` design should be documented separately, reviewed legally, and kept distinct from equity or profit-share claims.

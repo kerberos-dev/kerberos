@@ -21,8 +21,8 @@ export default function HomePage() {
         <p className="eyebrow">Experimental / Under Active Development / Not Audited</p>
         <h1>KERBEROS Protocol</h1>
         <p className="lede">
-          Execution assurance concepts from the whitepaper, paired with a requested
-          portfolio-first Web3 MVP that is explicitly labeled as an extension.
+          Execution assurance concepts from the whitepaper, paired with a
+          portfolio-first Web3 MVP that is explicitly scoped as an extension.
         </p>
         <div className="actions">
           <a href="/docs" aria-label="Open docs placeholder">Docs</a>

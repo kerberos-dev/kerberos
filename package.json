@@ -2,7 +2,7 @@
   "name": "kerberos-protocol",
   "private": true,
   "version": "0.1.0",
-  "description": "Experimental KERBEROS protocol monorepo: execution assurance concepts plus requested portfolio-first MVP contracts.",
+  "description": "Experimental KERBEROS protocol monorepo for execution assurance and portfolio-first MVP contracts.",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r build",

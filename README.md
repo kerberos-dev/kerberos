@@ -2,13 +2,13 @@
 
 **Experimental / Under Active Development / Not Audited**
 
-KERBEROS is a GitHub-ready protocol monorepo built from the referenced conversation and the attached `KERBEROS.pdf` whitepaper. The whitepaper positions Kerberos as **execution assurance for autonomous systems**: an independent verification layer between intent and execution.
+KERBEROS is an experimental Web3 protocol monorepo for **execution assurance for autonomous systems**: an independent verification layer between intent and execution.
 
-The repository also includes the user's requested portfolio-first protocol MVP. Those portfolio market components are clearly marked as a requested extension because they are **not described in the attached whitepaper**.
+This repository also explores a portfolio-first market layer as an MVP extension. The portfolio contracts are kept separate from the core execution-assurance thesis because they are outside the current whitepaper scope.
 
 ## Whitepaper Verification
 
-Supported by the attached `KERBEROS.pdf`:
+Covered by the current Kerberos whitepaper:
 
 - Execution assurance for autonomous systems.
 - "Verify the action. Validate the outcome."
@@ -19,7 +19,7 @@ Supported by the attached `KERBEROS.pdf`:
 - Human-readable verification console concepts: Activity, Executions, Alerts, Sources, Policies, Trust, History.
 - Kerberos exists between application intent and wallet/protocol execution.
 
-Not found in the attached whitepaper and therefore treated as requested/inferred MVP extensions:
+Implemented as MVP extensions outside the current whitepaper scope:
 
 - Portfolio-first markets.
 - `PortfolioFactory`, `PortfolioVault`, `PortfolioShare`, and `MarketRouter` as portfolio protocol contracts.
@@ -46,7 +46,7 @@ pnpm build
 forge test
 ```
 
-Foundry is required for contract tests. The repository intentionally vendors only a tiny local `forge-std` test shim so the MVP tests remain readable without pulling large dependencies into the generated ZIP.
+Foundry is required for contract tests. The repository intentionally vendors only a tiny local `forge-std` test shim so the MVP tests remain readable without pulling large dependencies into the source tree.
 
 ## Status
 

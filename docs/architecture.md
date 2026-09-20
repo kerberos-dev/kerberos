@@ -14,9 +14,9 @@ The whitepaper-supported model centers on verification records:
 
 In this repository, `MarketRouter` is the MVP bridge into that model. It checks a trusted development source before routing to an adapter and emits an `ExecutionRouted` event containing expected and observed action hashes.
 
-## Requested Extension: Portfolio Protocol
+## MVP Extension: Portfolio Protocol
 
-The requested portfolio-first layer is implemented as a minimal non-custodial MVP:
+The portfolio-first layer is implemented as a minimal non-custodial MVP:
 
 - `PortfolioFactory` creates vault/share pairs.
 - `PortfolioVault` accepts a single ERC-20 reserve asset and mints/burns portfolio shares.
